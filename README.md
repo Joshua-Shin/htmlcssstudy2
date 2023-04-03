@@ -16,7 +16,7 @@
   - flex-wrap : wrap; // 넘치면 아래로 내려감. 이거 안해주면 한줄에 자식요소들이 최대한으로 차지하면서 버팀.
   - align-items: center; // 상하 정렬
   - flex-direction : row; // row가 기본값, 반응형 웹 만들때 row만 column으로 바꾸면 쉽게 적용되겠네.
-  - flex-grow:2; // 1로 지정한애보다 상대적으로 2배 차지함. 얘만 자식요소에 직접 선언
+  - flex-grow:2; // flex 박스의 남은 여백을 얼마나 차지 할것이냐, 형제 div들의 grow 값의 합에서 2만큼 차지함. 얘만 자식요소에 직접 선언
 
 - background
   - background-image : url(../img/shoes.jpg);
