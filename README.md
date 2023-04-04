@@ -6,9 +6,10 @@
   - body {margin: 0px;}
   - div {box-sizing: border-box;}
 
-- form에서 input 이외의 태그
-  - <button type="submit">전송</button> 
+- form
+  - \<button type="submit">전송\</button> 
   - <textarea cols="30" rows="10"></textarea> // 여러줄 입력
+  - input[type=email]
 
 - display
   - display: flex;
